@@ -1,0 +1,140 @@
+.dp-pc {
+    display: block;
+    margin: auto;
+}
+
+.dp-sp {
+    display: none;
+    margin: auto;
+}
+
+.product-hero {
+    padding-bottom: 5px;
+}
+
+.list-review {
+    height: 181px;
+}
+
+.list-review .slick-initialized .slick-slide {
+    margin: 5px;
+    height: 181px;
+    width: 100%;
+}
+
+.list-review .l-column--equal-height>.we-customer-review {
+    max-height: 181px;
+    width: 100%;
+}
+
+.list-info {
+    margin-bottom: 5px;
+    height: 90px;
+    display: flex;
+}
+
+.list-info img {
+    width: auto !important;
+    height: 90px;
+    cursor: pointer;
+    padding: 15px 18px;
+    display: block;
+}
+
+.list-info li {
+    position: relative;
+}
+
+.list-info li::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 50px;
+    background: #ADADAD;
+    border-right: 1px solid #ADADAD;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.slider-list.slick-initialized .slick-slide {
+    margin: 30px;
+}
+
+.list-info.slick-initialized .slick-slide {
+    display: block;
+    margin: 0px;
+    width: 100px !important;
+}
+
+.slider-list .slick-track  {
+    background-image: url(./../images/bg-all-step.png);
+    background-position: center center;
+    height: auto;
+    width: 100%;
+}
+
+.responsive-image {
+    max-height: 540px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .dp-pc {
+        display: none;
+    }
+
+    .dp-sp {
+        display: block;
+    }
+
+    .list-info img {
+        height: 87px;
+    }
+
+    .slick-initialized .slick-slide {
+        display: block;
+        margin: 5px;
+    }
+
+    .slider-list.slick-initialized .slick-slide {
+        margin: 15px;
+    }
+
+    .slider-list .responsive-image.slick-slide {
+        padding: 0;
+    }
+
+    .responsive-image {
+        height: 80vw !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .list-info {
+        overflow: hidden;
+        height: 70px;
+    }
+
+    .list-info img {
+        width: auto !important;
+        height: 70px;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+    }
+
+    .list-info.slick-initialized .slick-slide {
+        width: 76px !important;
+    }
+}
