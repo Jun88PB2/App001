@@ -9,25 +9,25 @@
     <link href="./../assets/images/favicon.png?v=1" type="image/x-icon" rel="shortcut icon">
     <script>
         function redirectToAppropriatePage() {
-         // Check if the user is using iOS
-         if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
-           if (!window.location.href.includes('/ios')) {
-             window.location.href = '/ios';
-           }
-         }
-         // Check if the user is using Android
-         else if (/Android/.test(navigator.userAgent)) {
-           if (!window.location.href.includes('/android')) {
-             window.location.href = '/android';
-           }
-         } else {
-           console.log('Not an iOS or Android device');
-         }
-       }
-       
-       // Call the function to redirect when the page is loaded
-       window.onload = redirectToAppropriatePage;
-   </script>
+            // Check if the user is using iOS
+            if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+                if (!window.location.href.includes('/ios')) {
+                    window.location.href = '/ios';
+                }
+            }
+            // Check if the user is using Android
+            else if (/Android/.test(navigator.userAgent)) {
+                if (!window.location.href.includes('/android')) {
+                    window.location.href = '/android';
+                }
+            } else {
+                console.log('Not an iOS or Android device');
+            }
+        }
+
+        // Call the function to redirect when the page is loaded
+        window.onload = redirectToAppropriatePage;
+    </script>
 
     <title>
         Jun88 - Trải Nghiệm Tải App Trên IOS
@@ -153,7 +153,8 @@
                                 </ul>
                                 <ul class="nt-download-cta">
                                     <li>
-                                        <a href="https://jun88005.com/Jun88pb2.mobileconfig" download class="btn-download">Cài đặt</a>
+                                        <a href="https://jun88005.com/Jun88pb2.mobileconfig" download
+                                            class="btn-download">Cài đặt</a>
                                     </li>
                                     <li>
                                         <small><a href="#" class="btn-buy-inapp">Trải nghiệm</a></small>
@@ -530,7 +531,7 @@
                                     <time data-test-customer-review-date="" datetime="2022-04-22T13:13:44.000Z"
                                         aria-label="22 April 2022" class="we-customer-review__date">22/04/2023</time>
                                 </div>
-            
+
                                 <blockquote
                                     class="we-truncate we-truncate--multi-line we-truncate--interactive  we-customer-review__body"
                                     dir="">
@@ -588,7 +589,7 @@
                                     <time data-test-customer-review-date="" datetime="2022-04-20T03:32:47.000Z"
                                         aria-label="19 April 2022" class="we-customer-review__date">19/04/2023</time>
                                 </div>
-        
+
                                 <blockquote
                                     class="we-truncate we-truncate--multi-line we-truncate--interactive  we-customer-review__body"
                                     dir="">
