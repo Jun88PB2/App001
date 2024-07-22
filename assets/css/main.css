@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
-  min-height: 950px;
+  min-height: 750px;
   height: 100vh;
 }
 
@@ -613,6 +613,8 @@ p {
 }
 
 @media screen and (max-width: 1199px) {
+
+
   .logo-w {
     max-width: 50%;
   }
@@ -722,6 +724,11 @@ p {
 
 @media screen and (max-width: 1024px) {
 
+  .bg-image-body {
+    min-height: 650px;
+    height: 100vh;
+  }
+
   .logo {
     padding-top: 40px;
   }
@@ -749,10 +756,6 @@ p {
 
   .text-download {
     font-size: 16px;
-  }
-
-  .dsth-cl {
-    max-width: 80%;
   }
 
   .hd-taiapp {
@@ -835,13 +838,8 @@ p {
 @media screen and (max-width: 767px) {
 
   .bg-image-body {
-    background-image: url('/assets/images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    height: 666px;
-    min-height: 666px;
+    height: 100vh;
+    min-height: 750px;
   }
 
   .btn-dowm {
@@ -1063,6 +1061,11 @@ p {
 
   .text-partner p {
     font-size: 12px;
+  }
+
+  .bg-image-body {
+    height: 666px;
+    min-height: 666px;
   }
 }
 
