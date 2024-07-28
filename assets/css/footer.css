@@ -20,10 +20,10 @@ footer .footer-curve {
 
 footer .title-partner h2 {
   color: #25ABE0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 0px;
-  line-height: 26px;
+  line-height: 22px;
   letter-spacing: -0.8px;
 }
 
@@ -35,7 +35,7 @@ footer .title-partner h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 85px;
+  gap: 100px;
 }
 
 .group-team {
@@ -71,10 +71,11 @@ footer .title-partner h2 {
 
 .title-partner {
   padding-left: 3px;
-  font-size: 18px;
+  font-size: 16px;
   color: #25ABE0;
-  line-height: 21px;
+  line-height: 18.75px;
   font-weight: 400;
+
 }
 
 /* ambassador */
@@ -85,7 +86,7 @@ footer .footer-endorser h2 {
 .group-ambassador {
   display: flex;
   gap: 100px;
-  padding-top: 5px;
+  padding-top: 10px;
   justify-content: space-between;
 }
 
@@ -333,7 +334,7 @@ footer .footer-link {
 
 footer .footer-link a {
   color: #014966;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   text-transform: capitalize;
   text-align: center;
@@ -430,7 +431,7 @@ footer .footer-okvip {
   }
 
   footer .title-partner h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   footer .footer-main2 .item-icon-ft img {
